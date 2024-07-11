@@ -1,0 +1,9 @@
+<div class="container">
+  <button (click)="onClick('create')">Create</button>
+  <button (click)="onClick('update')">Update</button>
+</div>
+
+@if(isRequest){
+  <p>{{ action }}</p>
+}
+
